@@ -1,0 +1,19 @@
+{
+  "name": "browser-search",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build-index": "node scripts/build-index.mjs",
+    "dev": "npm run build-index && vite",
+    "build": "npm run build-index && tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~7.0.2",
+    "vite": "^8.3.5"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^4.3.2"
+  }
+}

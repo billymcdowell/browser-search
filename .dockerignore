@@ -1,0 +1,8 @@
+node_modules
+dist
+.cache
+.git
+.claude
+public/data
+public/models
+public/wasm
